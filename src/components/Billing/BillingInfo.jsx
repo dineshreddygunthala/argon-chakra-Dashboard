@@ -1,6 +1,6 @@
 const BillingCard = () => (
     
-  <div className="bg-white dark:bg-[#0e1a39] p-4 rounded-xl shadow text-sm">
+  <div className="bg-white dark:bg-[#0e1a39] dark:text-gray-50 p-4 rounded-xl shadow text-sm">
     <div className="font-semibold mb-2">Oliver Liam</div>
     <div className="text-gray-500">Company: Viking Burrito</div>
     <div className="text-gray-500">Email: oliver@burrito.com</div>

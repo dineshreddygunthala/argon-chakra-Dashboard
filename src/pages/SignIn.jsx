@@ -13,9 +13,9 @@ const SignIn = () => {
     >
       <Navbar />
 
-      <div className="flex justify-center items-center min-h-screen px-4">
-        <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md">
-          <h2 className="text-center text-lg font-semibold text-gray-800 mb-4">Sign In with</h2>
+      <div className="flex justify-center items-center min-h-screen px-4 ">
+        <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md dark:bg-blue-950 dark:text-gray-50">
+          <h2 className="text-center text-lg font-semibold text-gray-800 mb-4  dark:text-gray-100">Sign In with</h2>
           <div className="flex justify-center gap-4 mb-4">
             <button className="border rounded p-2 w-10">
               <i className="fab fa-facebook-f"></i>
@@ -28,11 +28,11 @@ const SignIn = () => {
             </button>
           </div>
 
-          <div className="text-center text-sm text-gray-500 mb-4">or</div>
+          <div className="text-center text-sm text-gray-500 mb-4 dark:text-gray-100">or</div>
 
           <form className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-600">Name</label>
+              <label className="block text-sm font-medium text-gray-600  dark:text-gray-100">Name</label>
               <input
                 type="text"
                 placeholder="Your full name"
@@ -40,7 +40,7 @@ const SignIn = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-600">Password</label>
+              <label className="block text-sm font-medium text-gray-600 dark:text-gray-100">Password</label>
               <input
                 type="password"
                 placeholder="Your password"
@@ -49,21 +49,21 @@ const SignIn = () => {
             </div>
             <div className="flex items-center gap-2">
               <input type="checkbox" id="remember" className="accent-blue-500" />
-              <label htmlFor="remember" className="text-sm text-gray-600">
+              <label htmlFor="remember" className="text-sm text-gray-600 dark:text-gray-100">
                 Remember me
               </label>
             </div>
             <button
               type="submit"
-              className="w-full bg-gray-800 text-white py-2 rounded text-sm font-semibold"
+              className="w-full bg-gray-800 text-white py-2 rounded text-sm font-semibold dark:text-gray-100 dark:bg-blue-500"
             >
               SIGN IN
             </button>
           </form>
 
-          <p className="text-center text-sm mt-4 text-gray-500">
+          <p className="text-center text-sm mt-4 text-gray-500 dark:text-gray-100">
             Don’t have an account?{" "}
-            <Link to="/signup" className="text-black font-semibold">
+            <Link to="/signup" className="text-black font-semibold dark:text-gray-200">
               Sign up
             </Link>
           </p>

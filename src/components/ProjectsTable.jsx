@@ -7,7 +7,7 @@ const projects = [
 ];
 
 const ProjectsTable = () => (
-  <div className="bg-white dark:bg-[#0e1a39] p-1 md:p-6 rounded-xl shadow">
+  <div className="bg-white dark:bg-[#0e1a39] dark:text-gray-50 p-1 md:p-6 rounded-xl shadow">
     <div className="flex justify-between items-center mb-4">
       <h2 className="text-lg font-semibold text-gray-700 dark:text-white">Projects</h2>
       <span className="text-sm text-green-400">● 30 done this month</span>

@@ -48,7 +48,7 @@ const Navbar = () => {
         >
           Sign In
         </NavLink>
-        <button className="bg-white text-blue-600 font-bold px-4 py-1 rounded text-xs">
+        <button className="bg-white text-blue-600 font-bold px-4 py-1 rounded text-xs dark:text-gray-100 dark:bg-blue-950">
           FREE DOWNLOAD
         </button>
       </nav>

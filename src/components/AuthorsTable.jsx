@@ -8,7 +8,7 @@ const authors = [
 ];
 
 const AuthorsTable = () => (
-  <div className="bg-white dark:bg-[#0e1a39] p-1 md:p-6 rounded-xl shadow">
+  <div className="bg-white dark:bg-[#0e1a39] dark:text-gray-50 p-1 md:p-6 rounded-xl shadow">
     <h2 className="text-lg font-semibold mb-4 text-gray-700 dark:text-white">Authors Table</h2>
     <table className="w-full text-sm">
       <thead className="text-gray-500 dark:text-gray-300 uppercase border-b border-gray-200 dark:border-gray-700">

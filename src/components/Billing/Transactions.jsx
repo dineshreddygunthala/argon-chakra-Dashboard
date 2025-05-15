@@ -8,7 +8,7 @@ const transactions = [
 ];
 
 const Transactions = () => (
-  <div className="bg-white dark:bg-[#0e1a39] rounded-xl p-4 shadow">
+  <div className="bg-white dark:bg-[#0e1a39] dark:text-gray-50 rounded-xl p-4 shadow">
     <h2 className="text-lg font-semibold mb-4">Your Transactions</h2>
     <ul className="space-y-3 text-sm">
       {transactions.map((t, i) => (
